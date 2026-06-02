@@ -1,3 +1,45 @@
-#Linux-ACL-Lab-Access-Control-Information-Flow-Labtainers
+# ACL Lab: Linux File Permissions & Information Flow
 
-This project demonstrates how Access Control Lists (ACLs) in Linux extend traditional UNIX permissions to enable fine-grained control over file access. It explores:  Viewing permissions using ls and getfacl Modifying file ACLs using setfacl Directory default ACL inheritance Information leakage via script execution context (Trojan horse scenario)
+## Objective
+To understand Linux ACLs using `getfacl` and `setfacl`, and demonstrate how permissions and execution context affect data visibility.
+
+---
+
+## Key Concepts
+
+- UNIX permissions (rwx)
+- ACL extensions (+)
+- Default ACL inheritance
+- Principle of least privilege
+- Information vs file access
+
+---
+
+## Tools Used
+
+- getfacl
+- setfacl
+- ls -l
+- echo / cat
+- bash scripting
+
+---
+
+## Lab Environment
+
+Users:
+- Alice
+- Bob
+- Harry
+
+Shared directory:
+- /shared_data
+
+---
+
+## Summary Tasks
+
+1. Permission inspection
+2. Single-file ACL modification
+3. Default ACL on directory
+4. Trojan-horse script exploitation
