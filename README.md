@@ -1,4 +1,4 @@
-# ACL Lab: Linux File Permissions & Information Flow
+# ACLs Lab: Linux File Permissions & Information Flow
 
 ## Objective
 To understand Linux ACLs using `getfacl` and `setfacl`, and demonstrate how permissions and execution context affect data visibility.
