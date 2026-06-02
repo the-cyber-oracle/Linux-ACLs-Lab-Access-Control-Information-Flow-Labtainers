@@ -3,3 +3,9 @@
 ## Command
 ```bash
 ls -l /shared_data
+
+## Observation
+accounting.txt shows: -rw-rw----+ "The + indicates ACL presence."
+
+## ACL Inspection
+getfacl /shared_data/accounting.txt
