@@ -1,0 +1,5 @@
+# Task 1: Permission Analysis
+
+## Command
+```bash
+ls -l /shared_data
